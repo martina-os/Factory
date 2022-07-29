@@ -1,0 +1,65 @@
+content {
+  display: flex;
+}
+content ul {
+  width: 1500px;
+  margin-left: -811px;
+  list-style-type: none;
+}
+content ul .images {
+  display: flex;
+  height: 200px;
+}
+content ul .top {
+  margin-bottom: 10px;
+}
+content ul .bottom {
+  display: flex;
+  justify-content: space-between;
+}
+content ul li {
+  display: flex;
+  margin-left: 10px;
+}
+content ul li img {
+  height: 200px;
+  border-radius: 5px;
+}
+content ul .buttons {
+  display: flex;
+  flex-direction: column;
+}
+content ul .buttons button {
+  margin-bottom: 10px;
+  width: 60px;
+  height: 60px;
+  border: 1px solid #DDDDDD;
+  border-radius: 5px;
+  position: relative;
+  cursor: pointer;
+  background-color: transparent;
+  box-sizing: border-box;
+}
+content ul .buttons button img {
+  height: 16px;
+  width: 9.98px;
+}
+content ul .buttons button .front {
+  position: relative;
+  opacity: 1;
+}
+content ul .buttons button .back {
+  position: absolute;
+  opacity: 0;
+}
+content ul .buttons button:hover {
+  border: 1px solid #134880;
+}
+content ul .buttons button:hover .front {
+  position: absolute;
+  opacity: 0;
+}
+content ul .buttons button:hover .back {
+  position: relative;
+  opacity: 1;
+}/*# sourceMappingURL=slider.css.map */

@@ -1,0 +1,20 @@
+$text1Color: #134880;
+$text2Color: #484A4C;
+
+
+@mixin space {
+  display: flex;
+  justify-content: space-between;
+}
+
+@mixin flexColumn {
+    display: flex;
+    flex-direction: column;
+}
+
+@mixin column {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+

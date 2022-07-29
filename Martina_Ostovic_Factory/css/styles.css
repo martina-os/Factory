@@ -1,0 +1,125 @@
+.text {
+  margin-left: 20px;
+}
+.text h1 {
+  width: 300.93px;
+  height: 120px;
+  font-size: 32px;
+  line-height: 38px;
+  color: #134880;
+  letter-spacing: -0.2px;
+  font-weight: 700;
+}
+.text p {
+  width: 300.93px;
+  height: 156px;
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: -0.2px;
+  color: #484A4C;
+  box-sizing: border-box;
+}
+
+content {
+  display: flex;
+}
+content ul {
+  width: 1500px;
+  margin-left: -811px;
+  list-style-type: none;
+}
+content ul .images {
+  display: flex;
+  height: 200px;
+}
+content ul .top {
+  margin-bottom: 10px;
+}
+content ul .bottom {
+  display: flex;
+  justify-content: space-between;
+}
+content ul li {
+  display: flex;
+  margin-left: 10px;
+}
+content ul li img {
+  height: 200px;
+  border-radius: 5px;
+}
+content ul .buttons {
+  display: flex;
+  flex-direction: column;
+}
+content ul .buttons button {
+  margin-bottom: 10px;
+  width: 60px;
+  height: 60px;
+  border: 1px solid #DDDDDD;
+  border-radius: 5px;
+  position: relative;
+  cursor: pointer;
+  background-color: transparent;
+  box-sizing: border-box;
+}
+content ul .buttons button img {
+  height: 16px;
+  width: 9.98px;
+}
+content ul .buttons button .front {
+  position: relative;
+  opacity: 1;
+}
+content ul .buttons button .back {
+  position: absolute;
+  opacity: 0;
+}
+content ul .buttons button:hover {
+  border: 1px solid #134880;
+}
+content ul .buttons button:hover .front {
+  position: absolute;
+  opacity: 0;
+}
+content ul .buttons button:hover .back {
+  position: relative;
+  opacity: 1;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+header .header1 {
+  width: 301px;
+  height: 100px;
+  border-radius: 0px 0px 5px 5px;
+  background-color: #DDDDDD;
+}
+header .header2 {
+  width: 621px;
+  height: 100px;
+  border-radius: 0px 0px 5px 5px;
+  background-color: #DDDDDD;
+}
+
+.footer1 {
+  background-color: #DDDDDD;
+  height: 100px;
+  border-radius: 5px 5px 0px 0px;
+}
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  height: 730px;
+  margin: 0;
+  padding: 0;
+}
+body .container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  max-width: 940px;
+  height: 100vh;
+  margin: auto;
+}/*# sourceMappingURL=styles.css.map */

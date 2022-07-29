@@ -1,0 +1,16 @@
+header {
+  display: flex;
+  justify-content: space-between;
+}
+header .header1 {
+  width: 301px;
+  height: 100px;
+  border-radius: 0px 0px 5px 5px;
+  background-color: #DDDDDD;
+}
+header .header2 {
+  width: 621px;
+  height: 100px;
+  border-radius: 0px 0px 5px 5px;
+  background-color: #DDDDDD;
+}/*# sourceMappingURL=header.css.map */

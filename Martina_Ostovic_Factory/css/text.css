@@ -1,0 +1,21 @@
+.text {
+  margin-left: 20px;
+}
+.text h1 {
+  width: 300.93px;
+  height: 120px;
+  font-size: 32px;
+  line-height: 38px;
+  color: #134880;
+  letter-spacing: -0.2px;
+  font-weight: 700;
+}
+.text p {
+  width: 300.93px;
+  height: 156px;
+  font-size: 18px;
+  line-height: 26px;
+  letter-spacing: -0.2px;
+  color: #484A4C;
+  box-sizing: border-box;
+}/*# sourceMappingURL=text.css.map */
